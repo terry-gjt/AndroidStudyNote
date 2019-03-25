@@ -4,12 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.terrygjt.androidstudynote.MainActivity">
-
-    <Button
-        android:id="@+id/JavaReflex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="反射原理与Android类加载核心" />
-
+    tools:context="com.terrygjt.androidstudynote.JavaReflex.ReflexActivity">
+    <TextView
+        android:id="@+id/InfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="信息：\n"
+        android:textSize="20sp" />
 </LinearLayout>
